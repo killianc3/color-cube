@@ -1,0 +1,13 @@
+[package]
+name = "cube"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.27"
+wgpu = "0.13"
+log = "0.4"
+env_logger = "0.9"
+cgmath = "0.18"
+pollster = "0.2"
+bytemuck = { version = "1.4", features = [ "derive" ] }
